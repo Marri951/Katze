@@ -1,0 +1,6 @@
+google
+twitter
+facebook
+amazon
+meta
+instagram
