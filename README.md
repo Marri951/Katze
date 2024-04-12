@@ -1,5 +1,7 @@
-=====================================================================
+=======================================================================================
+
 -What Will It Do?-
+
 Eventually, the program will fork into 2 sub-versions. 
 - "Die Katze" will be the version to further the mutation of the hosts file, ntp, dns, and other aspects of networking.
   The end goal of "Die Katze" side of the program will be to, essentially, push Windows Operating System penetration testing to an extreme and take the system offline.
@@ -7,8 +9,10 @@ Eventually, the program will fork into 2 sub-versions.
   Basic information will be collected similarly to other data collection tools I've made and this will be coupled with opening the firewall for a port, listening, and allowing remote access.
   An ease add-on that may be done is, in essence, pcap: whether it be through literal local sniffing, or rerouting w/ poisoned VPN or router info. Additionally, if more network access can be gained there is plenty of space for even further goals.
 
-=======================================================
+===================================================================================
+
 -What Does It Currently Do?-
+
 As of version 1.0, the program collects the public IPv4 address of the system and reroutes as much traffic as possible to just a picture of a cat.
 
 To do so, the Python program notes the directory the program is operating and then does 2 preparation tasks. The first is to ensure that "firmen" (companies) is formatted properly. 
@@ -25,8 +29,10 @@ Lastly, a simple HTTP server is created that is set to host static content for t
 An interesting side effect that I've found is that given the local server is not yet developed for HTTPS, any HTTPS requests that are made to a company's site simply won't work.
 In essence, any requests made to a site that's listed in the temporary hostnames file will either fail to do anything or only show a picture of a cat.
 
-======================================================
+====================================================================================
+
 -When is it okay to use?-
+
 This is only to be used on your, personally owned, personally managed, free to do what you want with system. I WILL NEVER CONDONE the use of this program on any system.
 I will still not condone it, but if you do choose to run this on your own system, ensure that you read and understand ALL OF the program's source code AND are FULLY CONSENTING to the operation of the program and ANY possible effects that may result.
 I will never be responsible for anything you do with this program. YOU ARE THE ONE RESPONSIBLE. With this program, to use it on ANY SYSTEM would be against my wishes and objectively not in the name of learning.
