@@ -1,4 +1,4 @@
-=======================================================================================
+==============================
 
 -What Will It Do?-
 
@@ -9,7 +9,7 @@ Eventually, the program will fork into 2 sub-versions.
   Basic information will be collected similarly to other data collection tools I've made and this will be coupled with opening the firewall for a port, listening, and allowing remote access.
   An ease add-on that may be done is, in essence, pcap: whether it be through literal local sniffing, or rerouting w/ poisoned VPN or router info. Additionally, if more network access can be gained there is plenty of space for even further goals.
 
-===================================================================================
+=========================
 
 -What Does It Currently Do?-
 
@@ -29,7 +29,7 @@ Lastly, a simple HTTP server is created that is set to host static content for t
 An interesting side effect that I've found is that given the local server is not yet developed for HTTPS, any HTTPS requests that are made to a company's site simply won't work.
 In essence, any requests made to a site that's listed in the temporary hostnames file will either fail to do anything or only show a picture of a cat.
 
-====================================================================================
+========================
 
 -When is it okay to use?-
 
