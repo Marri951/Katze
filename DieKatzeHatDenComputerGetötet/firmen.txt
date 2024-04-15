@@ -36,3 +36,11 @@ intel
 att
 tmobile
 verizon
+schoology
+docs.google
+gmail.google
+docs
+outlook
+openai
+chat.openai
+twitch
